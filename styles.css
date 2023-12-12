@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dautrang {
+    width: 100%;
+    height: 300px;
+}
+
+.dautrang img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+}
+.menu ul li {
+    float: left;
+    padding-left: 10%;
+    padding-top: 15px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:unset;
+}
+.menu ul li:hover a{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 0, 0);
+    scale: 2;
+    transition: 1s;
+    font-size: 22px;
+}
+.content .trai {
+    float: left;
+    height: 1000px;
+    width: 20%;
+    background: rgb(255, 255, 255);
+}
+.content .phai{
+    float: right;
+    height: 1000px;
+    width: 80%;
+    background: rgb(255, 255, 255);
+}
+.content .trai img{
+    width: 100%;
+    height: 25%;
+}
+.content .trai .trai1 #noidung1 {
+    padding-top: 8px;
+    width: 100%;
+    height: 33%;
+    color: rgb(10, 10, 10);
+    background: brown;
+    text-align: center;
+}
+.content .trai .trai2 #noidung2 {
+    padding-top: 8px;
+    width: 100%;
+    height: 33%;
+    color: rgb(10, 10, 10);
+    background: rgb(12, 52, 213);
+    text-align: center;
+}
+.content .trai .trai3 {
+    height: 30%;
+    background: rgb(243, 5, 5);
+}
+
+td {
+    border: 1px solid rgb(255, 255, 255);
+}
+b {
+    color: rgb(255, 255, 255) ;
+}
+#vnd {
+    color: red;
+}
+table tr td {
+    width: 100%;
+    height: 240px;
+}
+#cot3 {
+    background: violet;
+}
+.cuoitrang {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background: rgb(9, 0, 9);
+
+}
