@@ -44,7 +44,7 @@
     background: rgb(255, 255, 255);
 }
 .content .phai{
-    float: right;
+    float: left;
     height: 1000px;
     width: 80%;
     background: rgb(255, 255, 255);
@@ -53,10 +53,32 @@
     width: 100%;
     height: 25%;
 }
+.content .trai .trai1 {
+    height: 33%;
+    width: 100%;;
+    background: rgb(243, 5, 5);
+}
+.content .trai .trai1 img {
+    height: 300px;
+}
+.content .trai .trai2 img {
+    height: 300px;
+}
+.content .trai .trai2 {
+    height: 33%;
+    width: 100%;
+    background: rgb(243, 5, 5);
+}
+.content .trai .trai3 {
+    height: 34%;
+    width: 100%;
+    background: rgb(243, 5, 5);
+}
+
 .content .trai .trai1 #noidung1 {
     padding-top: 8px;
     width: 100%;
-    height: 33%;
+    height: 35px;
     color: rgb(10, 10, 10);
     background: brown;
     text-align: center;
@@ -64,14 +86,10 @@
 .content .trai .trai2 #noidung2 {
     padding-top: 8px;
     width: 100%;
-    height: 33%;
+    height: 35px;
     color: rgb(10, 10, 10);
     background: rgb(12, 52, 213);
     text-align: center;
-}
-.content .trai .trai3 {
-    height: 30%;
-    background: rgb(243, 5, 5);
 }
 
 td {
